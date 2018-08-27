@@ -4,7 +4,6 @@ class ProductsController < ApplicationController
   end
   
   def add
-    binding.pry
     cart << params[:item]
     
     session[:cart] = cart
