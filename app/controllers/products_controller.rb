@@ -1,5 +1,3 @@
-require 'pry'
-
 class ProductsController < ApplicationController
   
   def index
